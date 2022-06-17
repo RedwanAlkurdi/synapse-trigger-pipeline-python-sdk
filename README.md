@@ -16,3 +16,27 @@
 
 3- copy the json file (i.e., Google_Troubleshooting_Pipeline.json) into the code segment of the pipeline and press okay and then publish the code change
 ![4](/screenshots/4.png)
+
+
+we now have a small pipeline that has negligible costs to test out the Synapse permissions.
+
+
+
+
+# Testing out the Synapse permissions
+
+1- clone the repo and create a new virtual env and activate the virtual env
+```
+git clone <REPO_URL.git>
+virtualenv synapse_test --python=python3
+source synapse_test/bin/activate
+```
+
+2- install the following packages using pip in the following order (P.S.: using the requirements.txt for installing the packages will lead to errors, just install them one-by-one in the following order)
+```
+pip install azure-synapse
+pip install azure-identity
+pip install azure-synapse-artifacts
+```
+
+3- edit the script and add the required information
