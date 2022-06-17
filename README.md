@@ -12,3 +12,7 @@
 
 ![2](/screenshots/2.png)
 ![3](/screenshots/3.png)
+
+
+3- copy the json file (i.e., Google_Troubleshooting_Pipeline.json) into the code segment of the pipeline and press okay and then publish the code change
+![4](/screenshots/4.png)
