@@ -11,3 +11,4 @@
 2- change the name of the pipeline to "Google Troubleshooting Pipeline" on the right hand side and press on the code symbol
 
 ![2](/screenshots/2.png)
+![3](/screenshots/3.png)
