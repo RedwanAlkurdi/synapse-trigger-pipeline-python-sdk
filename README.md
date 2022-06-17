@@ -40,3 +40,24 @@ pip install azure-synapse-artifacts
 ```
 
 3- edit the script and add the required information
+```
+    # the name of the workspace
+    workspace_name = "lakehouseworkspace"
+
+    # the name of the pipeline to be triggered (P.S.: this pipeline should be a test pipeline that doesn't incur any costs)
+    pipeline_name = "Google Troubleshooting Pipeline"
+
+    # the three parameters obtained after creating the service principal
+    tenant_id="" # your tenant id
+    client_id="" #  your client id
+    client_secret="" # your client secret
+```
+
+4- after running the script you should get an output that looks like this
+```
+python3 Synapse_Permissions_Test.py
+
+{'additional_properties': {}, 'run_id': '073656c4-ee2a-11ec-b842-acde48001122'}
+pipeline started with run_id:  073656c4-ee2a-11ec-b842-acde48001122
+the current status of the pipeline run with run_id: 073656c4-ee2a-11ec-b842-acde48001122 is Queued
+```
